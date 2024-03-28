@@ -12,3 +12,54 @@ body {
   height: 100%;
   background-color: #565454;
 }
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1{
+  margin: 30px;
+  color: red;
+
+}
+
+.counter{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+#increment-btn, #decrement-btn, #reset-btn{
+  height: 50px;
+   padding: 0 40px;
+  border-radius: 10px;
+  font-size: 40px;
+  border: 2px solid;
+  color: beige;
+  margin: 20px;
+  background-color: rgb(51, 120, 120);
+}
+
+#reset-btn {
+  font-size: 20px;
+  color: yellowgreen;
+}
+
+#counter-value {
+  height: 50px;
+  min-width: 120px;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:palevioletred
+
+
+}
